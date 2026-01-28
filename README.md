@@ -117,3 +117,31 @@ http://localhost:4000
 | POST   | `/removefromcart` | Remove item from cart |
 | POST   | `/getcart`        | Get cart data         |
 
+## 🔑 Authentication
+
+- JWT is used for secure authentication
+
+- Token must be sent in request headers as:
+
+- auth-token: <JWT_TOKEN>
+
+## 🧩 Frontend Integration
+
+This backend is designed to work with a React.js frontend.
+The frontend consumes APIs for:
+- User login & registration
+- Product listing
+- Cart management
+- Admin panel operations
+
+## 📌 Future Improvements
+- Password hashing with bcrypt
+- Role-based authentication (Admin/User)
+- Product update API
+- Order & payment integration
+- Pagination & filtering
+
+👨‍💻 Author
+
+Built as part of a Full Stack E-Commerce Project using
+Express, Node.js, MongoDB, and React.js
