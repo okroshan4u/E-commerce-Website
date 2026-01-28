@@ -92,3 +92,20 @@ Server will run at:
 ```
 http://localhost:4000
 ```
+---
+## 📡 API Endpoints
+| Method | Endpoint  | Description       |
+| ------ | --------- | ----------------- |
+| POST   | `/signup` | Register new user |
+| POST   | `/login`  | Login user        |
+
+## 📦 Products
+
+| Method | Endpoint          | Description            |
+| ------ | ----------------- | ---------------------- |
+| POST   | `/addproduct`     | Add new product        |
+| POST   | `/removeproduct`  | Remove product         |
+| GET    | `/allproducts`    | Get all products       |
+| GET    | `/newcollections` | Latest products        |
+| GET    | `/popularinwomen` | Popular women products |
+
