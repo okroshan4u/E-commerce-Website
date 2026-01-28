@@ -109,3 +109,11 @@ http://localhost:4000
 | GET    | `/newcollections` | Latest products        |
 | GET    | `/popularinwomen` | Popular women products |
 
+## 🛒 Cart
+
+| Method | Endpoint          | Description           |
+| ------ | ----------------- | --------------------- |
+| POST   | `/addtocart`      | Add item to cart      |
+| POST   | `/removefromcart` | Remove item from cart |
+| POST   | `/getcart`        | Get cart data         |
+
