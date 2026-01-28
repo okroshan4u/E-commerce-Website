@@ -43,4 +43,25 @@ An **Admin Panel** consumes these APIs to add, update, and manage products on th
 ---
 
 ## 📂 Project Structure
+```
+backend/
+│
+├── upload/
+│ └── images/ # Uploaded product images
+│
+├── index.js # Main server file
+├── .env # Environment variables
+├── package.json
+└── README.md
+```
+---
 
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+
+```env
+PORT=4000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
