@@ -65,3 +65,30 @@ PORT=4000
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 ```
+## 🔧 Installation & Setup
+
+Clone the repository
+```
+
+git clone https://github.com/your-username/ecommerce-backend.git
+```
+
+Navigate to the project directory
+```
+cd ecommerce-backend
+
+```
+Install dependencies
+```
+npm install
+
+```
+Run the server
+```
+npm start
+```
+
+Server will run at:
+```
+http://localhost:4000
+```
