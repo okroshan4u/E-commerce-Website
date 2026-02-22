@@ -7,7 +7,7 @@ const path = require("path");
 const cors = require("cors");
 const dotenv = require("dotenv");
 
-dotenv.config();
+dotenv.config();l
 const app = express();
 const port = process.env.PORT || 4000;
 const JWT_SECRET = process.env.JWT_SECRET
